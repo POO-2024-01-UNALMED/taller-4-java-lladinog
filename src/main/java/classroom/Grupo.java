@@ -17,9 +17,8 @@ public class Grupo {
     }
 
     public Grupo(int cantidadEstudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
-        Persona[] personas = new Persona[cantidadEstudiantes]; // Inicializar el array de personas antes de usarlo
-        this(personas, profesor, asignatura, codigo, horario); // Llamada al constructor this() debe ser la primera declaración
-    }
+        Persona[] personas = new Persona[cantidadEstudiantes]; 
+        this(personas, profesor, asignatura, codigo, horario); 
         
     }
 

@@ -10,8 +10,8 @@ public class Persona {
     }
     
     public Persona() {
-        this.cedula = 0; // O cualquier otro valor predeterminado que desees para la cédula
-        this.nombre = ""; // O cualquier otro valor predeterminado que desees para el nombre
+        this.cedula = 0; 
+        this.nombre = "";
         totalPersonas++;
 
     public Persona(long cedula, String nombre) {
@@ -21,15 +21,15 @@ public class Persona {
     }
     
     public Persona(String nombre, long cedula) {
-        this(cedula, nombre); // Llama al otro constructor
+        this(cedula, nombre); 
     }
 
     public Persona(long cedula) {
-        this(cedula, ""); // Llama al otro constructor
+        this(cedula, "");
     }
 
     public Persona(String nombre) {
-        this(0, nombre); // Llama al otro constructor
+        this(0, nombre);
     }
     
     public long getCedula() {

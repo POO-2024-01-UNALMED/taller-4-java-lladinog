@@ -5,7 +5,7 @@ public class Grupo {
     public Persona[] estudiantes;
     public Persona profesor;
     public Asignatura asignatura;
-    public final int codigo;
+    public final int codigo = 0;
     public String horario;
 
     public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
@@ -29,7 +29,10 @@ public class Grupo {
         this.estudiantes = estudiantes;
         this.profesor = profesor;
         this.asignatura = asignatura;
+<<<<<<< HEAD
         this.codigo = 0; // Valor por defecto para un nuevo grupo
+=======
+>>>>>>> parent of 6e39d9c (1)
     }
 
     void cambiarEstudiante(Persona estudianteViejo, Persona estudianteNuevo) {
@@ -40,7 +43,7 @@ public class Grupo {
             }
         }
     }
-
+    
     void cambiarEstudiante(int indice, Persona estudiante) {
         estudiantes[indice] = estudiante;
     }

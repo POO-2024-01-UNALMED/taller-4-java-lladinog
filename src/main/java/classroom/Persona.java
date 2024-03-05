@@ -30,12 +30,7 @@ public class Persona {
     }
 
     public Persona(String nombre) {
-<<<<<<< HEAD
-        this.nombre = nombre;
-        this.cedula = -1; // Asignamos un valor no válido a la cédula para indicar que no está definida
-=======
         this.nombre = "";
->>>>>>> parent of 6e39d9c (1)
         totalPersonas++;
     }
     

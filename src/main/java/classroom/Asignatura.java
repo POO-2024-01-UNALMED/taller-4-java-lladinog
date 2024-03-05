@@ -1,12 +1,8 @@
 package classroom;
-
 public class Asignatura {
 
     public String nombre;
-<<<<<<< HEAD
-=======
     String n = nombre;
->>>>>>> parent of 6e39d9c (1)
     public int codigoInterno;
     public int codigoExterno;
     public Tipo tipo;

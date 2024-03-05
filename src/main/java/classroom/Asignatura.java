@@ -43,16 +43,13 @@ public class Asignatura {
         this.tipo = tipo;
     }
 
-    public void cambiarDatos(int codigoInterno) {
-        this(codigoInterno,0,null,null);
-    }
-
+    
     public void cambiarDatos(int codigoExterno) {
-    	this(0,codigoExterno,null,null);
+    	this(codigoExterno,codigoExterno,null,null);
     }
 
     public void cambiarDatos(String nombre) {
-        thisthis(0,0,nombre,null);
+        this(0,0,nombre,null);
         
     }
 

@@ -17,7 +17,7 @@ public class Grupo {
     }
 
     public Grupo(int cantidadEstudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
-    	this(Null, profesor, asignatura, codigo, horario);
+    	this(null, profesor, asignatura, codigo, horario);
     	Persona[] personas = new Persona[cantidadEstudiantes]; 
          
         

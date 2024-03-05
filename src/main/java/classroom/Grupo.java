@@ -2,8 +2,8 @@ package classroom;
 
 public class Grupo {
 
-	private Persona[] estudiantes;
-    private Persona profesor;
+	public Persona[] estudiantes;
+    public Persona profesor;
     private Asignatura asignatura;
     public int codigo;
     private String horario;

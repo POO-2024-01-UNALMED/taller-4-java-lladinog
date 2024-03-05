@@ -16,7 +16,7 @@ public class Asignatura {
     }
 
     public Asignatura(int codigoExterno, String nombre, Tipo tipo) {
-        this(nombre, null, codigoExterno, tipo);
+        this(nombre, null, codigoExterno, tipo;
     }
 
     public Asignatura(String nombre, Tipo tipo) {

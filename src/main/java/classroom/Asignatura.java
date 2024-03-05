@@ -45,11 +45,15 @@ public class Asignatura {
 
     
     public void cambiarDatos(int codigoExterno) {
-    	this(codigoExterno,codigoExterno,null,null);
+    	this.codigoInterno = codigoExterno;
+        this.codigoExterno = codigoExterno;
+;
     }
 
     public void cambiarDatos(String nombre) {
-        this(0,0,nombre,null);
+  
+        this.nombre = nombre;
+       
         
     }
 

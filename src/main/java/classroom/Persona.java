@@ -2,13 +2,12 @@ package classroom;
 
 public class Persona {
 
-    final long cedula;
-    String nombre;
-    static int totalPersonas;
+    private  final long cedula;
+    private String nombre;
+    private static int totalPersonas;
     
     static {
         totalPersonas = 0;
-        cedula = 3;
     }
 
     public Persona(long cedula, String nombre) {
@@ -18,20 +17,15 @@ public class Persona {
     }
     
     public Persona(String nombre, long cedula) {
-        this.cedula = cedula;
-        this.nombre = nombre;
-        totalPersonas++;
+        this(cedula, nombre); // Llama al otro constructor
     }
 
     public Persona(long cedula) {
-        this.cedula = cedula;
-        this.nombre = "";
-        totalPersonas++;
+        this(cedula, ""); // Llama al otro constructor
     }
 
     public Persona(String nombre) {
-        this.nombre = "";
-        totalPersonas++;
+        this(0, nombre); // Llama al otro constructor, puedes usar cualquier valor para cedula aquí
     }
     
     public long getCedula() {

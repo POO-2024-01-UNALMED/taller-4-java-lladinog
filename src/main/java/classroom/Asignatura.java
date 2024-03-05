@@ -44,15 +44,16 @@ public class Asignatura {
     }
 
     public void cambiarDatos(int codigoInterno) {
-        this.codigoInterno = codigoInterno;
+        this(codigoInterno,0,null,null);
     }
 
     public void cambiarDatos(int codigoExterno) {
-        this.codigoExterno = codigoExterno;
+    	this(0,codigoExterno,null,null);
     }
 
     public void cambiarDatos(String nombre) {
-        this.nombre = nombre;
+        thisthis(0,0,nombre,null);
+        
     }
 
     public void setCodigoInterno(int codigoInterno) {

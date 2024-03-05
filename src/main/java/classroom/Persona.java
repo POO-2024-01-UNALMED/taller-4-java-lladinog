@@ -8,6 +8,11 @@ public class Persona {
     static {
         totalPersonas = 0;
     }
+    
+    public Persona() {
+        this.cedula = 0; // O cualquier otro valor predeterminado que desees para la cédula
+        this.nombre = ""; // O cualquier otro valor predeterminado que desees para el nombre
+        totalPersonas++;
 
     public Persona(long cedula, String nombre) {
         this.cedula = cedula;

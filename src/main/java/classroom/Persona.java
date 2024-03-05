@@ -1,7 +1,7 @@
 package classroom;
 public class Persona {
 
-	private long cedula;
+	public long cedula;
 	private String nombre;
     public static int totalPersonas;
     
